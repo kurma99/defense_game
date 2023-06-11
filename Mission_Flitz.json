@@ -244,7 +244,7 @@
         "alwaysLoaded": false,
         "file": "assets/Tower2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tower2.png\"}",
         "name": "Tower",
         "smoothed": false,
         "userAdded": false
@@ -401,6 +401,51 @@
         "name": "assets/Previous_Green.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sheep_Farm5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Sheep_Farm5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/House2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "House2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/House3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "House3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/House3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/House3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tower_shop.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tower_shop",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -858,6 +903,166 @@
               "value": true
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Buildings",
+          "persistentUuid": "e866185f-e3bc-4141-8ef5-7665f17c2558",
+          "width": 128,
+          "x": 128,
+          "y": -128,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Buildings",
+          "persistentUuid": "8f2cb48a-73cc-4201-ab22-c213084da2b6",
+          "width": 128,
+          "x": 256,
+          "y": -128,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Buildings",
+          "persistentUuid": "6538dbfc-e5da-49e3-b5f0-b767639d4fe4",
+          "width": 128,
+          "x": 384,
+          "y": -128,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Buildings",
+          "persistentUuid": "96322af5-86ab-4b50-9349-aabdb7b6111c",
+          "width": 128,
+          "x": 512,
+          "y": -128,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 7
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Buildings",
+          "persistentUuid": "542f7d60-16a7-4ad1-9f3b-685a10c9fa5f",
+          "width": 128,
+          "x": 640,
+          "y": -128,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 9
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Buildings",
+          "persistentUuid": "b2994eea-fb5d-43f5-975c-ab245cf0c6ab",
+          "width": 128,
+          "x": 768,
+          "y": -128,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 11
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Buildings",
+          "persistentUuid": "fa522f7c-f98a-4e56-9986-76fdf00bd235",
+          "width": 128,
+          "x": 896,
+          "y": -128,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 13
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "Buildings",
+          "persistentUuid": "cb28f9c5-35fa-4589-b172-c0b0d0e5bda9",
+          "width": 128,
+          "x": 1024,
+          "y": -128,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 15
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1158,7 +1363,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "House",
+                      "image": "House2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1188,7 +1393,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Tower",
+                      "image": "Tower_shop",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1217,75 +1422,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Sheep_Farm.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Sheep_Farm2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Sheep_Farm3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Sheep_Farm4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Sheep_Farm5.png",
+                      "image": "assets/House3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1335,7 +1472,7 @@
               ]
             },
             {
-              "name": "",
+              "name": "Mine",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1346,7 +1483,117 @@
               ]
             },
             {
-              "name": "",
+              "name": "Spike",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "Manor",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "Owl",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "Village",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "Catapult",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "Farm",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "Sea_Horse",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "Iron_Factory",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "Barracks",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "Palace",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "Zaim",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1666,12 +1913,12 @@
             {
               "name": "SmoothCamera",
               "type": "SmoothCamera::SmoothCamera",
-              "LeftwardSpeed": 0.9,
-              "RightwardSpeed": 0.9,
+              "LeftwardSpeed": 0.7,
+              "RightwardSpeed": 0.7,
               "UpwardSpeed": 0.9,
               "DownwardSpeed": 0.9,
               "FollowOnX": true,
-              "FollowOnY": true,
+              "FollowOnY": false,
               "FollowFreeAreaLeft": 0,
               "FollowFreeAreaRight": 0,
               "FollowFreeAreaTop": 0,
@@ -1710,7 +1957,7 @@
               "LeftwardSpeedMax": 9000,
               "RightwardSpeedMax": 9000,
               "UpwardSpeedMax": 9000,
-              "DownwardSpeedMax": 9000,
+              "DownwardSpeedMax": 6000,
               "OldX": 9000,
               "OldY": 9000,
               "IsCalledManually": false
@@ -2987,11 +3234,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PanelSpriteButton::PanelSpriteButton::FlipX"
+                    "value": "SetAngle"
                   },
                   "parameters": [
                     "B_Switch_Scene",
-                    "yes"
+                    "+",
+                    "180"
                   ]
                 }
               ]
