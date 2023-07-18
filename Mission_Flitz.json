@@ -8,6 +8,8 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
@@ -2155,6 +2157,195 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
           "name": "Framed Pixel Red Fill Bar.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Owl.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Owl",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Owl2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Owl2.png\"}",
+        "name": "Owl2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Owl3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Owl3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Owl3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Owl3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/IDLE3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "IDLE3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/IDLE4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "IDLE4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/IDLE4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IDLE4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ATTACK14.png\"}",
+        "name": "ATTACK14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ATTACK15.png\"}",
+        "name": "ATTACK15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ATTACK16.png\"}",
+        "name": "ATTACK16",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ATTACK17.png\"}",
+        "name": "ATTACK17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ATTACK18.png\"}",
+        "name": "ATTACK18",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ATTACK19.png\"}",
+        "name": "ATTACK19",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ATTACK20.png\"}",
+        "name": "ATTACK20",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/ATTACK14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ATTACK21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ATTACK22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ATTACK23",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ATTACK24",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ATTACK25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ATTACK25",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2164,15 +2355,15 @@
   "variables": [],
   "layouts": [
     {
-      "b": 209,
+      "b": 33,
       "disableInputWhenNotFocused": true,
       "mangledName": "Untitled_32scene",
       "name": "Untitled scene",
-      "r": 209,
+      "r": 126,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 211,
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
@@ -2183,7 +2374,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3010461197182465,
+        "zoomFactor": 0.6151993653107141,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2275,28 +2466,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "NewTiledSprite",
-          "persistentUuid": "37ecfe90-1faf-4295-b5af-3d6075d8886d",
-          "width": 1024,
-          "x": 128,
-          "y": 0,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 640,
           "layer": "",
           "name": "NewTiledSprite",
           "persistentUuid": "d6011834-c639-4144-bf34-7a76f3c61b9a",
           "width": 1024,
           "x": 128,
-          "y": 160,
+          "y": 128,
           "zOrder": -1000,
           "numberProperties": [],
           "stringProperties": [],
@@ -2358,7 +2534,7 @@
           "sealed": true,
           "width": 1024,
           "x": 128,
-          "y": 160,
+          "y": 128,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2465,70 +2641,10 @@
           "height": 128,
           "layer": "",
           "name": "Buildings",
-          "persistentUuid": "9b741143-ce9d-44c2-b521-231bba86f1e5",
-          "width": 128,
-          "x": 640,
-          "y": 0,
-          "zOrder": 11,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "Buildings",
-          "persistentUuid": "0e56e4a2-b9be-4545-8d21-960efc534ecc",
-          "width": 128,
-          "x": 768,
-          "y": 0,
-          "zOrder": 11,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "Buildings",
-          "persistentUuid": "3f7e18c8-4cd8-42fc-a913-ed6b8467b4c1",
-          "width": 128,
-          "x": 896,
-          "y": 0,
-          "zOrder": 11,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "Buildings",
           "persistentUuid": "3197ac01-1419-4e26-adec-27e2a681abf7",
           "width": 128,
-          "x": 1024,
-          "y": 0,
+          "x": 1216,
+          "y": -192,
           "zOrder": 11,
           "numberProperties": [
             {
@@ -2971,7 +3087,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 2
+              "value": 3
             }
           ],
           "stringProperties": [],
@@ -3111,8 +3227,168 @@
           "persistentUuid": "89be4e70-4814-4939-a74d-515a0228d827",
           "width": 1024,
           "x": 128,
-          "y": 128,
+          "y": 768,
           "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "",
+          "name": "D_Wander",
+          "persistentUuid": "0d88b446-7974-414a-922e-71af423c4294",
+          "width": 128,
+          "x": 512,
+          "y": -256,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
+          "layer": "",
+          "name": "T_Info",
+          "persistentUuid": "954624c9-d3f6-4142-850f-f57f5a5e743f",
+          "width": 288,
+          "x": -32,
+          "y": -160,
+          "zOrder": 1000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "",
+          "name": "UI_Showcase_Tile",
+          "persistentUuid": "68dcd273-4ee4-4529-bf65-cda251cb3a5a",
+          "width": 128,
+          "x": 1024,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "",
+          "name": "UI_Showcase_Tile",
+          "persistentUuid": "3043bae0-e65f-4ec0-adf1-252b1cd30275",
+          "width": 128,
+          "x": 896,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "",
+          "name": "UI_Showcase_Tile",
+          "persistentUuid": "d63868ef-9313-4cce-a08a-b51581b331f5",
+          "width": 128,
+          "x": 768,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "",
+          "name": "UI_Showcase_Tile",
+          "persistentUuid": "9b39e4c0-7156-4f4b-b81e-70b5ca06a49c",
+          "width": 128,
+          "x": 384,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "",
+          "name": "UI_Showcase_Tile",
+          "persistentUuid": "e98a6e13-a2f1-4eab-83f5-d06085ccea41",
+          "width": 128,
+          "x": 512,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "",
+          "name": "UI_Showcase_Tile",
+          "persistentUuid": "506035c1-9f27-4454-8d71-75eaa4d6c85a",
+          "width": 128,
+          "x": 640,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "",
+          "name": "UI_Showcase_Tile",
+          "persistentUuid": "4e2b4269-8243-4f51-98f2-7e1cf6b2950a",
+          "width": 128,
+          "x": 256,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "",
+          "name": "UI_Showcase_Tile",
+          "persistentUuid": "20ee4075-bf51-4dab-a1d7-712d7baa018d",
+          "width": 128,
+          "x": 128,
+          "y": 0,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3480,13 +3756,31 @@
               ]
             },
             {
-              "name": "",
+              "name": "Wander",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/ATTACK14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
                 }
               ]
             },
@@ -3640,9 +3934,40 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "Moved_Up",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 0.5,
+                "blur": 5,
+                "distance": 1,
+                "padding": 0,
+                "quality": 5,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "House",
@@ -3854,13 +4179,32 @@
               ]
             },
             {
-              "name": "Owl",
+              "name": "Wander",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Owl3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
                 }
               ]
             },
@@ -4337,56 +4681,8 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "SmoothCamera",
-              "type": "SmoothCamera::SmoothCamera",
-              "LeftwardSpeed": 0.7,
-              "RightwardSpeed": 0.7,
-              "UpwardSpeed": 0.9,
-              "DownwardSpeed": 0.9,
-              "FollowOnX": true,
-              "FollowOnY": false,
-              "FollowFreeAreaLeft": 0,
-              "FollowFreeAreaRight": 0,
-              "FollowFreeAreaTop": 0,
-              "FollowFreeAreaBottom": 0,
-              "CameraOffsetX": 0,
-              "CameraOffsetY": 0,
-              "CameraDelay": 0,
-              "ForecastTime": 0,
-              "ForecastHistoryDuration": 0,
-              "LogLeftwardSpeed": 0,
-              "LogRightwardSpeed": 0,
-              "LogDownwardSpeed": 0,
-              "LogUpwardSpeed": 0,
-              "DelayedCenterX": 0,
-              "DelayedCenterY": 0,
-              "ForecastHistoryMeanX": 0,
-              "ForecastHistoryMeanY": 0,
-              "ForecastHistoryVarianceX": 0,
-              "ForecastHistoryCovariance": 0,
-              "ForecastHistoryLinearA": 0,
-              "ForecastHistoryLinearB": 0,
-              "ForecastedX": 0,
-              "ForecastedY": 0,
-              "ProjectedNewestX": 0,
-              "ProjectedNewestY": 0,
-              "ProjectedOldestX": 0,
-              "ProjectedOldestY": 0,
-              "ForecastHistoryVarianceY": 0,
-              "Index": 0,
-              "CameraDelayCatchUpSpeed": 0,
-              "CameraExtraDelay": 0,
-              "WaitingSpeedXMax": 0,
-              "WaitingSpeedYMax": 0,
-              "WaitingEnd": 0,
-              "CameraDelayCatchUpDuration": 0,
-              "LeftwardSpeedMax": 9000,
-              "RightwardSpeedMax": 9000,
-              "UpwardSpeedMax": 9000,
-              "DownwardSpeedMax": 6000,
-              "OldX": 9000,
-              "OldY": 9000,
-              "IsCalledManually": false
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": []
@@ -4882,6 +5178,35 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "assets/Mine2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Manor",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets/House2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5874,6 +6199,282 @@
         },
         {
           "assetStoreId": "",
+          "name": "D_Wander",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "IDLE",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.4,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "IDLE3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "IDLE4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ATTACK",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.4,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ATTACK21",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ATTACK22",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ATTACK23",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ATTACK24",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ATTACK25",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ATTACK14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ATTACK15",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ATTACK16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ATTACK17",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ATTACK18",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ATTACK19",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "ATTACK20",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
           "name": "P_Projecticle",
           "tags": "",
           "type": "Sprite",
@@ -6391,9 +6992,9 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "MaxValue": 100,
+            "MaxValue": 1000,
             "InitialValue": 8,
-            "BarLeftPadding": 9,
+            "BarLeftPadding": 12,
             "BarRightPadding": 9,
             "BarBottomPadding": 3,
             "BarTopPadding": 3,
@@ -6408,7 +7009,7 @@
               "leftMargin": 11,
               "rightMargin": 11,
               "texture": "Copper Bar Border.png",
-              "tiled": true,
+              "tiled": false,
               "topMargin": 6,
               "width": 96
             },
@@ -6448,6 +7049,67 @@
               }
             }
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "T_Info",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "t_info",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "UI_Showcase_Tile",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -7347,7 +8009,54 @@
               "actions": [],
               "events": [
                 {
-                  "folded": true,
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "D_Tower",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "D_Tower",
+                        "\"ATTACK\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "D_Flitz",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "D_Flitz",
+                        "\"ATTACK\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "D_Scythes",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "D_Scythes",
+                        "\"ATTACK\""
+                      ]
+                    }
+                  ]
+                },
+                {
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Attacker",
                   "conditions": [],
@@ -7498,6 +8207,7 @@
                   ]
                 },
                 {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -7517,54 +8227,6 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "D_Tower",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "D_Tower",
-                    "\"ATTACK\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "D_Flitz",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "D_Flitz",
-                    "\"ATTACK\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "D_Scythes",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "D_Scythes",
-                    "\"ATTACK\""
-                  ]
-                }
-              ]
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7575,6 +8237,12 @@
                     "B_Fight",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -7598,11 +8266,115 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Attack_Phase",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Buildings",
+                        "Moved_Up",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "Buildings"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Buildings",
+                        "Moved_Up",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectPositionYTween"
+                      },
+                      "parameters": [
+                        "Buildings",
+                        "Tween",
+                        "\"Up\"",
+                        "Buildings.Y()-256",
+                        "\"easeInCirc\"",
+                        "700",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "AttackWave",
+                        "=",
+                        "AttackWave.MaxValue()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "AttackWave",
+                        "startValue",
+                        "=",
+                        "Count(Attacker)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "B_Switch_Scene",
+                        "Switched_Scene",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
                       },
                       "parameters": [
                         "AttackWave",
@@ -7617,16 +8389,54 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Attack_Phase",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Buildings",
+                    "Moved_Up",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Buildings"
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
-                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                    "value": "Tween::AddObjectPositionYTween"
                   },
                   "parameters": [
-                    "AttackWave",
-                    "=",
-                    "Count(Attacker)",
+                    "Buildings",
+                    "Tween",
+                    "\"Up\"",
+                    "Buildings.Y()+256",
+                    "\"easeInCirc\"",
+                    "1000",
                     ""
                   ]
                 }
@@ -7640,7 +8450,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Health",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7907,6 +8716,17 @@
                     "Attacker",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "AttackWave",
+                    "=",
+                    "Count(Attacker)/AttackWave.Variable(startValue)*AttackWave.MaxValue()",
+                    ""
+                  ]
                 }
               ]
             }
@@ -7997,8 +8817,8 @@
           "type": "Health::Health"
         },
         {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera"
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     }
@@ -8056,11 +8876,36 @@
               },
               "parameters": [
                 "B_Switch_Scene",
-                "Switched_Scene",
-                ""
+                "Button_Pressed",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "B_Switch_Scene",
+                "Button_Pressed",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "Camera_Spot"
               ]
             }
           ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8091,22 +8936,35 @@
                   },
                   "parameters": [
                     "B_Switch_Scene",
-                    "Switched_Scene",
-                    ""
+                    "Button_Pressed",
+                    "True"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "MettreXY"
+                    "value": "Tween::AddObjectPositionTween"
                   },
                   "parameters": [
                     "Camera",
-                    "=",
+                    "Tween",
+                    "\"Tween\"",
                     "Camera_Spot.CenterX()",
-                    "=",
-                    "Camera_Spot.CenterY()"
+                    "Camera_Spot.CenterY()",
+                    "\"easeOutQuart\"",
+                    "1500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "B_Switch_Scene",
+                    "Button_Pressed",
+                    "False"
                   ]
                 },
                 {
@@ -8116,17 +8974,7 @@
                   "parameters": [
                     "B_Switch_Scene",
                     "Building_Scene",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "B_Switch_Scene",
-                    "Switched_Scene",
-                    "True"
+                    "False"
                   ]
                 }
               ]
@@ -8160,22 +9008,35 @@
                   },
                   "parameters": [
                     "B_Switch_Scene",
-                    "Switched_Scene",
-                    ""
+                    "Button_Pressed",
+                    "True"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "MettreXY"
+                    "value": "Tween::AddObjectPositionTween"
                   },
                   "parameters": [
                     "Camera",
-                    "=",
+                    "Tween",
+                    "\"Tween\"",
                     "Camera_Spot.CenterX()",
-                    "=",
-                    "Camera_Spot.CenterY()"
+                    "Camera_Spot.CenterY()",
+                    "\"easeOutQuart\"",
+                    "1500",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "B_Switch_Scene",
+                    "Button_Pressed",
+                    "False"
                   ]
                 },
                 {
@@ -8185,16 +9046,6 @@
                   "parameters": [
                     "B_Switch_Scene",
                     "Building_Scene",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "B_Switch_Scene",
-                    "Switched_Scene",
                     "True"
                   ]
                 }
@@ -8214,6 +9065,34 @@
                     "180"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Camera",
+                "",
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "T_Money",
+                "=",
+                "ToString(B_Switch_Scene.Variable(Switched_Scene))"
               ]
             }
           ]
@@ -8384,11 +9263,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 }
               ],
               "parameters": []
@@ -8424,6 +9298,7 @@
               "conditions": [
                 {
                   "type": {
+                    "inverted": true,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -8432,12 +9307,30 @@
                     "",
                     ""
                   ]
-                },
+                }
+              ],
+              "actions": [
                 {
                   "type": {
-                    "value": "HasAnyTouchOrMouseStarted"
+                    "value": "Cache"
                   },
                   "parameters": [
+                    "T_Info"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Buildings",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -8445,11 +9338,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetAnimationName"
+                    "value": "Montre"
                   },
                   "parameters": [
-                    "Spotlight",
-                    "Buildings.AnimationName()"
+                    "T_Info",
+                    ""
                   ]
                 }
               ],
@@ -8457,7 +9350,254 @@
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "T_Info",
+                        "=",
+                        "Buildings.X()",
+                        "=",
+                        "Buildings.Y()+128"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Buildings",
+                            "\"House\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "T_Info",
+                            "=",
+                            "\"[outline=white][b]House[/b]\nCost: --\nAdds: 1 people (square)[/outline]\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Buildings",
+                            "\"Tower\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "T_Info",
+                            "=",
+                            "\"[outline=white][b]Tower[/b]\nCost: 1 people\nAdds: <-x->[/outline]\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Buildings",
+                            "\"Sheep_Farm\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "T_Info",
+                            "=",
+                            "\"[outline=white][b]Sheep Farm[/b]\nCost: 1 people\nAdds: 1 food (+)[/outline]\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Buildings",
+                            "\"Flitz\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "T_Info",
+                            "=",
+                            "\"[outline=white][b]Flitz[/b]\nCost: 1 food\nAdds: <-x (shield break)[/outline]\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Buildings",
+                            "\"Mine\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "T_Info",
+                            "=",
+                            "\"[outline=white][b]Mine[/b]\nCost: 2 food, 1 people\nAdds: 1 iron (x)[/outline]\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Buildings",
+                            "\"Scythes\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "T_Info",
+                            "=",
+                            "\"[outline=white][b]Scythes[/b]\nCost: 1 iron\nAdds: [][/outline]\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Buildings",
+                            "\"Manor\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "T_Info",
+                            "=",
+                            "\"[outline=white][b]Manor[/b]\nCost: 2 people, 1 food, 1 iron\nAdds: +2 Capacity[/outline]\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Buildings",
+                            "\"Wander\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "BBText::SetBBText"
+                          },
+                          "parameters": [
+                            "T_Info",
+                            "=",
+                            "\"[outline=white][b]Wander[/b]\nCost: 2 Food\nAdds: ≈≈≈x[/outline]\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "HasAnyTouchOrMouseStarted"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Spotlight",
+                        "Buildings.AnimationName()"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -9051,6 +10191,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -9115,6 +10256,220 @@
                                 "Iron",
                                 ">=",
                                 "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Spotlight",
+                                "\"RGB\"",
+                                "\"red\"",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Spotlight",
+                                "\"RGB\"",
+                                "\"green\"",
+                                "2"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Spotlight",
+                            "\"Manor\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Spotlight",
+                                "\"RGB\"",
+                                "\"red\"",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Spotlight",
+                                "\"RGB\"",
+                                "\"green\"",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Tile",
+                                "Build",
+                                "False"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "Tile",
+                                "People",
+                                ">=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "Tile",
+                                "Iron",
+                                ">=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "Tile",
+                                "Food",
+                                ">=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Spotlight",
+                                "\"RGB\"",
+                                "\"red\"",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Spotlight",
+                                "\"RGB\"",
+                                "\"green\"",
+                                "2"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Spotlight",
+                            "\"Wander\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Spotlight",
+                                "\"RGB\"",
+                                "\"red\"",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetEffectDoubleParameter"
+                              },
+                              "parameters": [
+                                "Spotlight",
+                                "\"RGB\"",
+                                "\"green\"",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Tile",
+                                "Build",
+                                "False"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "Tile",
+                                "Food",
+                                ">=",
+                                "2"
                               ]
                             }
                           ],
@@ -10155,7 +11510,7 @@
                           },
                           "parameters": [
                             "D_Scythes",
-                            "\"Mine\""
+                            "\"IDLE\""
                           ]
                         },
                         {
@@ -10176,6 +11531,208 @@
                           },
                           "parameters": [
                             "D_Scythes",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Tile",
+                            "Build",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Spotlight",
+                            "\"Manor\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Tile",
+                            "People",
+                            ">=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Tile",
+                            "Food",
+                            ">=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Tile",
+                            "Iron",
+                            ">=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "D_Wander",
+                            "Tile.X()",
+                            "Tile.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "D_Wander",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "D_Wander",
+                            "\"IDLE\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Spotlight",
+                            "=",
+                            "Tile.X()",
+                            "=",
+                            "Tile.Y()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "D_Wander",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Tile",
+                            "Build",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Spotlight",
+                            "\"Wander\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Tile",
+                            "Food",
+                            ">=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "D_Wander",
+                            "Tile.X()",
+                            "Tile.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "D_Wander",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "D_Wander",
+                            "\"IDLE\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Spotlight",
+                            "=",
+                            "Tile.X()",
+                            "=",
+                            "Tile.Y()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "D_Wander",
                             "=",
                             "1"
                           ]
