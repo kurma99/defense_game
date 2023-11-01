@@ -2855,11 +2855,23 @@
         "name": "assets/assets_Destroy2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Destroy3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Destroy3.png\"}",
+        "name": "assets/Destroy3",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "objectsGroups": [],
   "variables": [
     {
@@ -2902,7 +2914,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.456444901608753,
+        "zoomFactor": 0.33865761239756526,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2918,37 +2930,6 @@
       "variables": [
         {
           "folded": true,
-          "name": "Gold",
-          "type": "array",
-          "children": [
-            {
-              "type": "array",
-              "children": [
-                {
-                  "type": "array",
-                  "children": []
-                },
-                {
-                  "folded": true,
-                  "type": "array",
-                  "children": []
-                },
-                {
-                  "folded": true,
-                  "type": "array",
-                  "children": []
-                },
-                {
-                  "folded": true,
-                  "type": "array",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "folded": true,
           "name": "Update",
           "type": "boolean",
           "value": false
@@ -2958,6 +2939,18 @@
           "name": "Attack_Phase",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "Money",
+          "type": "number",
+          "value": 3
+        },
+        {
+          "folded": true,
+          "name": "Game_Speed",
+          "type": "number",
+          "value": 1
         }
       ],
       "instances": [
@@ -3039,13 +3032,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "depth": 0,
+          "height": 64,
           "layer": "",
           "name": "T_Money",
           "persistentUuid": "586e2dd7-eb53-405a-8b03-251b0903061d",
-          "width": 128,
-          "x": 0,
-          "y": 0,
+          "width": 64,
+          "x": 32,
+          "y": 25,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3960,15 +3954,48 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 47,
           "layer": "",
           "name": "T_Debug",
           "persistentUuid": "ee0c9cea-ac37-45bc-abc1-f3e1b73aa72f",
-          "width": 0,
-          "x": 1152,
-          "y": 352,
+          "width": 64,
+          "x": 1184,
+          "y": 480,
           "zOrder": 1002,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 128,
+          "layer": "",
+          "name": "UI_Showcase_Tile",
+          "persistentUuid": "9ac2692e-fc67-46b5-b914-87f8c878a691",
+          "width": 128,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 128,
+          "layer": "",
+          "name": "B_Switch_Time",
+          "persistentUuid": "c84110b1-ea4b-4e38-8698-32fd1707c84d",
+          "width": 128,
+          "x": 1152,
+          "y": 256,
+          "zOrder": 1003,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3979,7 +4006,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tile",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -4081,7 +4107,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tile_Space",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -4137,7 +4162,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Spotlight",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -4506,7 +4530,6 @@
         {
           "assetStoreId": "db57d0bcdc074868304ca46431ac85fcef3f613be5fba73ae0adc26ee2c8629b",
           "name": "Iron",
-          "tags": "",
           "type": "TiledUnitsBar::TiledUnitsBar",
           "variables": [],
           "effects": [],
@@ -4543,7 +4566,6 @@
         {
           "assetStoreId": "db57d0bcdc074868304ca46431ac85fcef3f613be5fba73ae0adc26ee2c8629b",
           "name": "Food",
-          "tags": "",
           "type": "TiledUnitsBar::TiledUnitsBar",
           "variables": [],
           "effects": [],
@@ -4579,7 +4601,6 @@
         {
           "assetStoreId": "db57d0bcdc074868304ca46431ac85fcef3f613be5fba73ae0adc26ee2c8629b",
           "name": "People",
-          "tags": "",
           "type": "TiledUnitsBar::TiledUnitsBar",
           "variables": [],
           "effects": [],
@@ -4616,7 +4637,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Buildings",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -5017,7 +5037,6 @@
           "assetStoreId": "",
           "height": 32,
           "name": "NewTiledSprite",
-          "tags": "",
           "texture": "Tile_Space222.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -5029,7 +5048,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "c5f43cddc97c42bcd0141c7f80ea7807e5c885439730c6a433a55f3ba95bb05d",
           "name": "BuffArrow1",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5100,7 +5118,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "8a3fc1de2e09b64b421d9e7befbb9f87fd3939f5afd7fe7dc68beffc7ab019f2",
           "name": "Home",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5141,7 +5158,6 @@
         {
           "assetStoreId": "",
           "name": "T_Money",
-          "tags": "",
           "type": "BBText::BBText",
           "variables": [],
           "effects": [],
@@ -5149,9 +5165,9 @@
           "content": {
             "text": "Money",
             "opacity": 255,
-            "fontSize": 30,
+            "fontSize": 60,
             "visible": true,
-            "color": "0;0;0",
+            "color": "248;231;28",
             "fontFamily": "Arial",
             "align": "center",
             "wordWrap": true
@@ -5160,7 +5176,6 @@
         {
           "assetStoreId": "",
           "name": "T_Debug",
-          "tags": "",
           "type": "BBText::BBText",
           "variables": [],
           "effects": [],
@@ -5179,7 +5194,6 @@
         {
           "assetStoreId": "d7de738069817891a6c233618dc4fe00463738543c80009e9ef75684d5f6e8fd",
           "name": "B_Switch_Store",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [
             {
@@ -5256,7 +5270,6 @@
         {
           "assetStoreId": "d7de738069817891a6c233618dc4fe00463738543c80009e9ef75684d5f6e8fd",
           "name": "B_Fight",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [
             {
@@ -5333,7 +5346,6 @@
         {
           "assetStoreId": "d7de738069817891a6c233618dc4fe00463738543c80009e9ef75684d5f6e8fd",
           "name": "B_Switch_Scene",
-          "tags": "",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [
             {
@@ -5411,7 +5423,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Camera",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5428,7 +5439,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Camera_Spot",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -5447,7 +5457,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Recource_Building",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5971,7 +5980,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5983,7 +5991,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "D_Tower",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": true,
           "variables": [],
@@ -6277,7 +6284,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite2",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6289,7 +6295,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Attacker",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6706,7 +6711,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Projectile",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -7226,7 +7230,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "D_Flitz",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": true,
           "variables": [],
@@ -7435,7 +7438,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "D_Wander",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": true,
           "variables": [],
@@ -7814,7 +7816,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "P_Projecticle",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -7987,7 +7988,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "D_Scythes",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": true,
           "variables": [],
@@ -8315,7 +8315,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemySpawn",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8326,7 +8325,6 @@
         {
           "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
           "name": "AttackWave",
-          "tags": "",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
           "variables": [],
           "effects": [],
@@ -8393,7 +8391,6 @@
         {
           "assetStoreId": "",
           "name": "T_Info",
-          "tags": "",
           "type": "BBText::BBText",
           "variables": [],
           "effects": [],
@@ -8413,7 +8410,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "UI_Showcase_Tile",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8456,7 +8452,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Special_Tile",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -8518,7 +8513,6 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "UNDO",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -8555,7 +8549,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Destroy2",
+                      "image": "assets/Destroy3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8571,19 +8565,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 5,
-                            "y": 3
+                            "x": 6,
+                            "y": 6
                           },
                           {
-                            "x": 32,
-                            "y": 3
+                            "x": 28,
+                            "y": 6
                           },
                           {
-                            "x": 32,
+                            "x": 28,
                             "y": 27
                           },
                           {
-                            "x": 5,
+                            "x": 6,
                             "y": 27
                           }
                         ]
@@ -8594,8 +8588,185 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "d7de738069817891a6c233618dc4fe00463738543c80009e9ef75684d5f6e8fd",
+          "name": "B_Switch_Time",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [
+            {
+              "folded": true,
+              "name": "Switched",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 3,
+            "BottomPadding": 32,
+            "TopPadding": 32,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 16,
+              "height": 69,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Brown Button With Shadow_Hovered.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 16,
+              "height": 69,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Brown Button With Shadow_Idle.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "1x",
+              "font": "CantoraOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 30,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 69,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Brown Button With Shadow_Pressed.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            }
+          }
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Tile"
+          },
+          {
+            "objectName": "Tile_Space"
+          },
+          {
+            "objectName": "Spotlight"
+          },
+          {
+            "objectName": "Iron"
+          },
+          {
+            "objectName": "Food"
+          },
+          {
+            "objectName": "People"
+          },
+          {
+            "objectName": "Buildings"
+          },
+          {
+            "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "BuffArrow1"
+          },
+          {
+            "objectName": "Home"
+          },
+          {
+            "objectName": "T_Money"
+          },
+          {
+            "objectName": "T_Debug"
+          },
+          {
+            "objectName": "B_Switch_Store"
+          },
+          {
+            "objectName": "B_Switch_Time"
+          },
+          {
+            "objectName": "B_Fight"
+          },
+          {
+            "objectName": "B_Switch_Scene"
+          },
+          {
+            "objectName": "Camera"
+          },
+          {
+            "objectName": "Camera_Spot"
+          },
+          {
+            "objectName": "Recource_Building"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "D_Tower"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "Attacker"
+          },
+          {
+            "objectName": "Projectile"
+          },
+          {
+            "objectName": "D_Flitz"
+          },
+          {
+            "objectName": "D_Wander"
+          },
+          {
+            "objectName": "P_Projecticle"
+          },
+          {
+            "objectName": "D_Scythes"
+          },
+          {
+            "objectName": "EnemySpawn"
+          },
+          {
+            "objectName": "AttackWave"
+          },
+          {
+            "objectName": "T_Info"
+          },
+          {
+            "objectName": "UI_Showcase_Tile"
+          },
+          {
+            "objectName": "Special_Tile"
+          },
+          {
+            "objectName": "UNDO"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -8622,6 +8793,260 @@
             "includeConfig": 0
           },
           "target": "CameraEvent"
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "GameSpeed",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "B_Switch_Time",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "B_Switch_Time",
+                    "Switched",
+                    "False"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Game_Speed",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "B_Switch_Time",
+                        "Switched",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
+                      },
+                      "parameters": [
+                        "B_Switch_Time",
+                        "\"2x\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Game_Speed",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "B_Switch_Time",
+                        "Switched",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Game_Speed",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "B_Switch_Time",
+                        "Switched",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
+                      },
+                      "parameters": [
+                        "B_Switch_Time",
+                        "\"4x\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Game_Speed",
+                        "=",
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "B_Switch_Time",
+                        "Switched",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "Game_Speed",
+                        "=",
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "B_Switch_Time",
+                        "Switched",
+                        "False"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::SetLabelText"
+                      },
+                      "parameters": [
+                        "B_Switch_Time",
+                        "\"1x\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Game_Speed",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "B_Switch_Time",
+                        "Switched",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "B_Switch_Time",
+                        "Switched",
+                        "False"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -9952,6 +10377,31 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "Special_Tile"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Special_Tile",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
@@ -10257,32 +10707,113 @@
                 },
                 {
                   "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Lvl_\"+ToString(GlobalVariable(Current_Level))+\"_\"+ToString(GlobalVariable(Current_Wave))",
-                    "EnemySpawn.X()",
-                    "EnemySpawn.Y()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Current_Wave",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Montre"
                   },
                   "parameters": [
                     "B_Fight",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Money",
+                    "+",
+                    "2"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Special_Tile",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Tile",
+                        "Special_Tile.CenterX()",
+                        "Special_Tile.CenterY()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Tile",
+                        "Build",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Special_Tile",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Lvl_\"+ToString(GlobalVariable(Current_Level))+\"_\"+ToString(GlobalVariable(Current_Wave))",
+                        "EnemySpawn.X()",
+                        "EnemySpawn.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Current_Wave",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "Attacker"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Attacker",
+                        "=",
+                        "1000"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -10338,6 +10869,16 @@
                     "\"easeInCirc\"",
                     "1000",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Buildings",
+                    "Moved_Up",
+                    "="
                   ]
                 }
               ]
@@ -11048,8 +11589,32 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
           "name": "Health",
           "type": "Health::Health"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
         },
         {
           "name": "Tween",
@@ -11300,7 +11865,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "B_Level",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -11408,7 +11972,6 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Frame",
-          "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -11464,6 +12027,17 @@
           ]
         }
       ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "B_Level"
+          },
+          {
+            "objectName": "Frame"
+          }
+        ]
+      },
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -12098,6 +12672,32 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "T_Money",
+                "=",
+                "ToString(Variable(Money))"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetAlignment"
+              },
+              "parameters": [
+                "T_Money",
+                "=",
+                "\"center\""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -12464,6 +13064,7 @@
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -12487,7 +13088,18 @@
                       ]
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Money",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ],
                   "events": [
                     {
                       "folded": true,
@@ -12781,10 +13393,21 @@
                         "D_Tower",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Money",
+                        "+",
+                        "1"
+                      ]
                     }
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -12808,7 +13431,18 @@
                       ]
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Money",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ],
                   "events": [
                     {
                       "folded": true,
@@ -12990,10 +13624,21 @@
                         "D_Flitz",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Money",
+                        "+",
+                        "1"
+                      ]
                     }
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -13017,7 +13662,18 @@
                       ]
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Money",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -13198,10 +13854,21 @@
                         "D_Scythes",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Money",
+                        "+",
+                        "1"
+                      ]
                     }
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -13225,7 +13892,18 @@
                       ]
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Money",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -13276,6 +13954,16 @@
                       "parameters": [
                         "D_Wander",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Money",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -13341,22 +14029,6 @@
                         "UNDO.VariableChildCount(Name)-1"
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BBText::SetBBText"
-                  },
-                  "parameters": [
-                    "T_Debug",
-                    "=",
-                    "UNDO.ArrayVariableLastString(Name)"
                   ]
                 }
               ]
@@ -13466,7 +14138,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -13526,6 +14197,16 @@
                                 "Tile",
                                 "Build",
                                 "False"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "Money",
+                                ">",
+                                "0"
                               ]
                             }
                           ],
@@ -13623,6 +14304,16 @@
                                 ">=",
                                 "1"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "Money",
+                                ">",
+                                "0"
+                              ]
                             }
                           ],
                           "actions": [
@@ -13719,6 +14410,16 @@
                                 ">=",
                                 "1"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "Money",
+                                ">",
+                                "0"
+                              ]
                             }
                           ],
                           "actions": [
@@ -13814,6 +14515,16 @@
                                 "Food",
                                 ">=",
                                 "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "Money",
+                                ">",
+                                "0"
                               ]
                             }
                           ],
@@ -13922,6 +14633,16 @@
                                 ">=",
                                 "1"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "Money",
+                                ">",
+                                "0"
+                              ]
                             }
                           ],
                           "actions": [
@@ -14017,6 +14738,16 @@
                                 "Iron",
                                 ">=",
                                 "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "Money",
+                                ">",
+                                "0"
                               ]
                             }
                           ],
@@ -14136,6 +14867,16 @@
                                 ">=",
                                 "1"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "Money",
+                                ">",
+                                "0"
+                              ]
                             }
                           ],
                           "actions": [
@@ -14231,6 +14972,16 @@
                                 "Food",
                                 ">=",
                                 "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "VarScene"
+                              },
+                              "parameters": [
+                                "Money",
+                                ">",
+                                "0"
                               ]
                             }
                           ],
@@ -14306,6 +15057,16 @@
                             "Spotlight",
                             "\"House\""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            ">",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -14370,6 +15131,16 @@
                             "Tile",
                             "Build",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            "-",
+                            "1"
                           ]
                         }
                       ],
@@ -14677,6 +15448,16 @@
                             ">=",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            ">",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -14732,6 +15513,16 @@
                             "Tile",
                             "Build",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            "-",
+                            "1"
                           ]
                         }
                       ],
@@ -14797,6 +15588,16 @@
                             ">=",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            ">",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -14861,6 +15662,16 @@
                             "Tile",
                             "Build",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            "-",
+                            "1"
                           ]
                         }
                       ],
@@ -15056,6 +15867,16 @@
                             ">=",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            ">",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -15112,6 +15933,16 @@
                             "Build",
                             "True"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            "-",
+                            "1"
+                          ]
                         }
                       ],
                       "events": [
@@ -15154,6 +15985,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -15185,6 +16017,16 @@
                             "Food",
                             ">=",
                             "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            ">",
+                            "0"
                           ]
                         }
                       ],
@@ -15250,6 +16092,16 @@
                             "Tile",
                             "Build",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            "-",
+                            "1"
                           ]
                         }
                       ],
@@ -15445,6 +16297,16 @@
                             ">=",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            ">",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -15509,6 +16371,16 @@
                             "Tile",
                             "Build",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            "-",
+                            "1"
                           ]
                         }
                       ],
@@ -15596,6 +16468,16 @@
                             ">=",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            ">",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -15660,6 +16542,16 @@
                             "Tile",
                             "Build",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            "-",
+                            "1"
                           ]
                         }
                       ],
@@ -15725,6 +16617,16 @@
                             ">=",
                             "2"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            ">",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -15789,6 +16691,16 @@
                             "Tile",
                             "Build",
                             "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Money",
+                            "-",
+                            "1"
                           ]
                         }
                       ],
@@ -18276,7 +19188,6 @@
               "italic": false,
               "name": "Label",
               "smoothed": true,
-              "tags": "",
               "type": "TextObject::Text",
               "underlined": false,
               "variables": [],
@@ -18299,7 +19210,6 @@
               "leftMargin": 0,
               "name": "FillBar",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": true,
               "topMargin": 0,
@@ -18328,7 +19238,6 @@
               "leftMargin": 0,
               "name": "Buffer",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": true,
               "topMargin": 0,
@@ -18350,7 +19259,6 @@
               "leftMargin": 0,
               "name": "Background",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": true,
               "topMargin": 0,
@@ -18360,7 +19268,24 @@
               "effects": [],
               "behaviors": []
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Label"
+              },
+              {
+                "objectName": "FillBar"
+              },
+              {
+                "objectName": "Buffer"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          }
         }
       ]
     },
@@ -32294,7 +33219,6 @@
               "italic": false,
               "name": "Label",
               "smoothed": true,
-              "tags": "",
               "type": "TextObject::Text",
               "underlined": false,
               "variables": [],
@@ -32317,7 +33241,6 @@
               "leftMargin": 0,
               "name": "Idle",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": false,
               "topMargin": 0,
@@ -32347,7 +33270,6 @@
               "leftMargin": 0,
               "name": "Hovered",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": false,
               "topMargin": 0,
@@ -32369,7 +33291,6 @@
               "leftMargin": 0,
               "name": "Pressed",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": false,
               "topMargin": 0,
@@ -32379,7 +33300,24 @@
               "effects": [],
               "behaviors": []
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Label"
+              },
+              {
+                "objectName": "Idle"
+              },
+              {
+                "objectName": "Hovered"
+              },
+              {
+                "objectName": "Pressed"
+              }
+            ]
+          }
         }
       ]
     },
@@ -37056,7 +37994,6 @@
               "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "Thumb",
-              "tags": "",
               "type": "Sprite",
               "updateIfNotVisible": false,
               "variables": [],
@@ -37080,7 +38017,6 @@
               "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "Border",
-              "tags": "",
               "type": "Sprite",
               "updateIfNotVisible": false,
               "variables": [],
@@ -37113,7 +38049,18 @@
                 }
               ]
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Thumb"
+              },
+              {
+                "objectName": "Border"
+              }
+            ]
+          }
         }
       ]
     },
@@ -38684,7 +39631,6 @@
               "assetStoreId": "",
               "height": 32,
               "name": "FillBar",
-              "tags": "",
               "texture": "",
               "type": "TiledSpriteObject::TiledSprite",
               "width": 32,
@@ -38704,7 +39650,6 @@
               "assetStoreId": "",
               "height": 32,
               "name": "Bar",
-              "tags": "",
               "texture": "",
               "type": "TiledSpriteObject::TiledSprite",
               "width": 32,
@@ -38719,7 +39664,6 @@
               "leftMargin": 0,
               "name": "Background",
               "rightMargin": 0,
-              "tags": "",
               "texture": "",
               "tiled": true,
               "topMargin": 0,
@@ -38729,7 +39673,21 @@
               "effects": [],
               "behaviors": []
             }
-          ]
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "FillBar"
+              },
+              {
+                "objectName": "Bar"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          }
         }
       ]
     }
@@ -39079,26 +40037,6 @@
           "height": 128,
           "layer": "",
           "name": "Attacker",
-          "persistentUuid": "0f60348e-994e-47fb-9f00-21c4a0668a39",
-          "width": 128,
-          "x": 768,
-          "y": 384,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 3
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "Attacker",
           "persistentUuid": "02a6e663-34f0-439a-98cb-6e0e3c7422a8",
           "width": 128,
           "x": 896,
@@ -39146,7 +40084,7 @@
           "name": "Attacker",
           "persistentUuid": "8c7412ef-4681-4c52-bf85-c884fdfb8886",
           "width": 128,
-          "x": 160,
+          "x": 128,
           "y": 256,
           "zOrder": 1,
           "numberProperties": [],
@@ -39196,8 +40134,8 @@
           "name": "Attacker",
           "persistentUuid": "5b2e95d4-787e-4694-a84e-e2b099cb8a7e",
           "width": 128,
-          "x": 384,
-          "y": 384,
+          "x": 256,
+          "y": 256,
           "zOrder": 1,
           "numberProperties": [
             {
@@ -39216,7 +40154,7 @@
           "name": "Attacker",
           "persistentUuid": "05eadee2-1e71-4813-b01c-7de440425b1a",
           "width": 128,
-          "x": 160,
+          "x": 128,
           "y": 384,
           "zOrder": 1,
           "numberProperties": [
@@ -39509,52 +40447,12 @@
           "height": 128,
           "layer": "",
           "name": "Attacker",
-          "persistentUuid": "0338657a-c4dc-428a-8484-daba8f7c0bdd",
-          "width": 128,
-          "x": 768,
-          "y": 128,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 3
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "Attacker",
           "persistentUuid": "62b0c42b-74c5-408a-9f61-f88efce1336a",
           "width": 128,
           "x": 896,
           "y": 384,
           "zOrder": 1,
           "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "Attacker",
-          "persistentUuid": "0f60348e-994e-47fb-9f00-21c4a0668a39",
-          "width": 128,
-          "x": 768,
-          "y": 384,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 3
-            }
-          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -40560,39 +41458,9 @@
           "height": 128,
           "layer": "",
           "name": "Attacker",
-          "persistentUuid": "77d3dd92-c9cd-486a-9830-7bc6775cd196",
-          "width": 128,
-          "x": 128,
-          "y": 256,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "Attacker",
           "persistentUuid": "afefc50e-df7d-4db0-8fe2-fd50cd619a3e",
           "width": 128,
           "x": 256,
-          "y": 256,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "name": "Attacker",
-          "persistentUuid": "4340023e-30a9-4427-a7e4-e42ce9c76a84",
-          "width": 128,
-          "x": 512,
           "y": 256,
           "zOrder": 1,
           "numberProperties": [],
